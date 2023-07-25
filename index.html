@@ -10,14 +10,20 @@
    <h1>Titulo principal </h1>
 
    <section class="conjunto_cuadros">
-   <div class="cuadros"> A </div>
+   <div class="cuadros" id="a"> A </div>
    <div class="cuadros"> B </div>
    <div class="cuadros"> C </div>
    <div class="cuadros"> D </div>
    <div class="cuadros"> E </div>
    <div class="cuadros"> F </div>
+  
    </section>
-
+   <p id="demo" class="cuadros"></p>>JavaScript puede cambiar el contenido HTML</p>
+   <button type="button" onclick='document.getElementById("demo").innerHTML = "¡Hola JavaScript!"'>Click Me!</button>
+   
+   <p id="pEncima" onmouseover="getElementById('pEncima').style.color = 'red' " 
+   onmouseleave="getElementById('pEncima').style.color = 'green' "
+   >Esto es un parrafo dinamico </p>
    
 </body>
 
