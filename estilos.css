@@ -17,10 +17,10 @@ body{
 .cuadros{
 
    color: blue;
-   font-size: 35px;
+   font-size: 45px;
    font-weight: bold;
    padding: 3rem;
-   background-color: aqua;
+   background-color: rgb(24, 193, 193);
    margin: 10px;
    border-radius: 50%;
    border: solid;
